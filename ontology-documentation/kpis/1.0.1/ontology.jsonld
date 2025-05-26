@@ -30,7 +30,7 @@
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "cs",
-    "@value" : "Ontology safety performace -- KPIS popisuje pojmy používané v hodnocení bezpečnosti letecké dopravy."
+    "@value" : "Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.\nInspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.\nTrail je trasa, na které daná inspekce probíhá.\nPoint je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. "
   } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@value" : "2025-01-24"
@@ -59,6 +59,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "kpis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://kbss.felk.cvut.cz/web/"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance"

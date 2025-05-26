@@ -25,7 +25,10 @@
         <terms:created>2025-01-24</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-3844-426X"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0003-2850-2582"/>
-        <terms:description xml:lang="cs">Ontology safety performace -- KPIS popisuje pojmy používané v hodnocení bezpečnosti letecké dopravy.</terms:description>
+        <terms:description xml:lang="cs">Základními pojmy ontoloige Safety performance KPIS jsou pojmy &apos;inspection&apos;, &apos;trail&apos; a &apos;point&apos;.
+Inspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.
+Trail je trasa, na které daná inspekce probíhá.
+Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. </terms:description>
         <terms:issued>2025-01-24</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:modified>2025-05-26</terms:modified>
@@ -35,6 +38,7 @@
         <vann:prefferedNamespaceUri rdf:resource="http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/"/>
         <schema:codeRepository rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/kbss-cvut/lkpr-public.git</schema:codeRepository>
         <rdfs:label>kpis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://kbss.felk.cvut.cz/web/"/>
         <owl:priorVersion rdf:resource="http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0"/>
         <owl:versionInfo>1.0.1</owl:versionInfo>
         <vocab:introduction xml:lang="cs"> Ontologie Safety performance KPIS byla vytvořena za účelem popisu průběhu kontrolních inspekcí k zajištění bezpečnosti letového provozu na letišti.</vocab:introduction>

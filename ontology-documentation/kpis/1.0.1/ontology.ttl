@@ -16,7 +16,10 @@
                                                               <http://purl.org/dc/terms/created> "2025-01-24" ;
                                                               <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3844-426X> ,
                                                                                                  <https://orcid.org/0000-0003-2850-2582> ;
-                                                              <http://purl.org/dc/terms/description> "Ontology safety performace -- KPIS popisuje pojmy používané v hodnocení bezpečnosti letecké dopravy."@cs ;
+                                                              <http://purl.org/dc/terms/description> """Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.
+Inspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.
+Trail je trasa, na které daná inspekce probíhá.
+Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. """@cs ;
                                                               <http://purl.org/dc/terms/issued> "2025-01-24" ;
                                                               <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                               <http://purl.org/dc/terms/modified> "2025-05-26" ;
@@ -26,6 +29,7 @@
                                                               <http://purl.org/vocab/vann/prefferedNamespaceUri> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/> ;
                                                               <http://schema.org/codeRepository> "https://github.com/kbss-cvut/lkpr-public.git"^^xsd:anyURI ;
                                                               rdfs:label "kpis" ;
+                                                              rdfs:seeAlso <https://kbss.felk.cvut.cz/web/> ;
                                                               owl:priorVersion <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0> ;
                                                               owl:versionInfo "1.0.1" ;
                                                               <https://w3id.org/widoco/vocab#introduction> " Ontologie Safety performance KPIS byla vytvořena za účelem popisu průběhu kontrolních inspekcí k zajištění bezpečnosti letového provozu na letišti."@cs ;
