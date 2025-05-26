@@ -1,0 +1,336 @@
+[ {
+  "@id" : "_:genid1",
+  "http://www.w3.org/ns/org#memberOf" : [ {
+    "@id" : "https://ror.org/03kqpb082"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Miroslav Blaško"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@language" : "cs",
+    "@value" : "Ontologie Safety performance KPIS pochází z modelu vyvořeného pro lepší kontrolu bezpečnosti v leteckém provozu v projektu LKPR. Pro ontologii byly vytvořeny mapování na ontologii UFO (https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance-kpis-ufo-mapping.ttl) a STAMP (https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance-kpis-stamp-mapping.ttl)."
+  } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@language" : "cs",
+    "@value" : "Michal Med, Bogdan Kostov, Miroslav Blaško. Safety performance KPIS model. Získáno z: http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2025-01-24"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://orcid.org/0000-0002-3844-426X"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-2850-2582"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "cs",
+    "@value" : "Ontology safety performace -- KPIS popisuje pojmy používané v hodnocení bezpečnosti letecké dopravy."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2025-01-24"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@value" : "2025-05-26"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Safety performance KPIS model"
+  } ],
+  "http://purl.org/ontology/bibo/status" : [ {
+    "@id" : "https://dcmi.github.io/bibo/#:Specification"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "safety-performance-kpis"
+  } ],
+  "http://purl.org/vocab/vann/prefferedNamespaceUri" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/"
+  } ],
+  "http://schema.org/codeRepository" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/kbss-cvut/lkpr-public.git"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "kpis"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance"
+  }, {
+    "@id" : "http://www.opengis.net/ont/geosparql/1.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.1"
+  } ],
+  "https://w3id.org/widoco/vocab#introduction" : [ {
+    "@language" : "cs",
+    "@value" : " Ontologie Safety performance KPIS byla vytvořena za účelem popisu průběhu kontrolních inspekcí k zajištění bezpečnosti letového provozu na letišti."
+  } ],
+  "https://w3id.org/widoco/vocab#jsonldSerialization" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "./ontology.xjsonld"
+  } ],
+  "https://w3id.org/widoco/vocab#ntSerialization" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "./ontology.nt"
+  } ],
+  "https://w3id.org/widoco/vocab#rdfxmlSerialization" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "./ontology.owl"
+  } ],
+  "https://w3id.org/widoco/vocab#turtleSerialization" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "./ontology.ttl"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/condition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action-state",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/discrepancy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/due-date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/elevation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/employee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/end",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/finding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-corrective-action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "vztah mezi něčím a korektivní akcí"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cs",
+    "@value" : "má korektivní akci"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-discrepancy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-inspected-condition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-operator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/employee"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-point",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-priority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-state",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-trail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspected-condition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspected-condition-state",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspection-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by-inspection-object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by-organizational-category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-fixed-by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/employee"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-inspection-of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-part-of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/located-at",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/point",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Geometry"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/priority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/repair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/repair-date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/section",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/start",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/trail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Geometry"
+  } ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/username",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/prefferedNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/codeRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#Geometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#asWKT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#memberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://orcid.org/0000-0002-3844-426X",
+  "http://www.w3.org/ns/org#memberOf" : [ {
+    "@id" : "https://ror.org/03kqpb082"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Michal Med"
+  } ]
+}, {
+  "@id" : "https://orcid.org/0000-0003-2850-2582",
+  "http://www.w3.org/ns/org#memberOf" : [ {
+    "@id" : "https://ror.org/03kqpb082"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Bogdan Kostov"
+  } ]
+}, {
+  "@id" : "https://ror.org/03kqpb082",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "cs",
+    "@value" : "České vysoké učení technické v Praze"
+  } ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#introduction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#jsonldSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#ntSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#rdfxmlSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#turtleSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

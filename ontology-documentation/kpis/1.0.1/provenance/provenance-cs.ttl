@@ -1,0 +1,16 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.1> a prov:Entity;
+	 dc:title "Safety performance KPIS model";
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-3844-426X>;
+	 dc:creator <https://orcid.org/0000-0002-3844-426X>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0003-2850-2582>;
+	 dc:creator <https://orcid.org/0000-0003-2850-2582>;
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasRevisionOf <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0>;
+	 prov:wasGeneratedAt "2025-01-24";
+.
+:agent0 a prov:Agent; foaf:name "Miroslav Blaško".

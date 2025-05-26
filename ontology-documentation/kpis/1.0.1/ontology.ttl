@@ -1,0 +1,320 @@
+@prefix : <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis#> .
+
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> rdf:type owl:Ontology ;
+                                                              owl:versionIRI <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.1> ;
+                                                              owl:imports <http://onto.fel.cvut.cz/ontologies/safety-performance> ,
+                                                                          <http://www.opengis.net/ont/geosparql/1.1> ;
+                                                              <http://purl.org/dc/terms/abstract> "Ontologie Safety performance KPIS pochází z modelu vyvořeného pro lepší kontrolu bezpečnosti v leteckém provozu v projektu LKPR. Pro ontologii byly vytvořeny mapování na ontologii UFO (https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance-kpis-ufo-mapping.ttl) a STAMP (https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance-kpis-stamp-mapping.ttl)."@cs ;
+                                                              <http://purl.org/dc/terms/bibliographicCitation> "Michal Med, Bogdan Kostov, Miroslav Blaško. Safety performance KPIS model. Získáno z: http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/"@cs ;
+                                                              <http://purl.org/dc/terms/contributor> _:genid1 ;
+                                                              <http://purl.org/dc/terms/created> "2025-01-24" ;
+                                                              <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3844-426X> ,
+                                                                                                 <https://orcid.org/0000-0003-2850-2582> ;
+                                                              <http://purl.org/dc/terms/description> "Ontology safety performace -- KPIS popisuje pojmy používané v hodnocení bezpečnosti letecké dopravy."@cs ;
+                                                              <http://purl.org/dc/terms/issued> "2025-01-24" ;
+                                                              <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                              <http://purl.org/dc/terms/modified> "2025-05-26" ;
+                                                              <http://purl.org/dc/terms/title> "Safety performance KPIS model" ;
+                                                              <http://purl.org/ontology/bibo/status> <https://dcmi.github.io/bibo/#:Specification> ;
+                                                              <http://purl.org/vocab/vann/preferredNamespacePrefix> "safety-performance-kpis" ;
+                                                              <http://purl.org/vocab/vann/prefferedNamespaceUri> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/> ;
+                                                              <http://schema.org/codeRepository> "https://github.com/kbss-cvut/lkpr-public.git"^^xsd:anyURI ;
+                                                              rdfs:label "kpis" ;
+                                                              owl:priorVersion <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0> ;
+                                                              owl:versionInfo "1.0.1" ;
+                                                              <https://w3id.org/widoco/vocab#introduction> " Ontologie Safety performance KPIS byla vytvořena za účelem popisu průběhu kontrolních inspekcí k zajištění bezpečnosti letového provozu na letišti."@cs ;
+                                                              <https://w3id.org/widoco/vocab#jsonldSerialization> "./ontology.xjsonld"^^xsd:anyURI ;
+                                                              <https://w3id.org/widoco/vocab#ntSerialization> "./ontology.nt"^^xsd:anyURI ;
+                                                              <https://w3id.org/widoco/vocab#rdfxmlSerialization> "./ontology.owl"^^xsd:anyURI ;
+                                                              <https://w3id.org/widoco/vocab#turtleSerialization> "./ontology.ttl"^^xsd:anyURI .
+
+_:genid1 <http://www.w3.org/ns/org#memberOf> <https://ror.org/03kqpb082> ;
+          <http://xmlns.com/foaf/0.1/name> "Miroslav Blaško" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/prefferedNamespaceUri
+<http://purl.org/vocab/vann/prefferedNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/codeRepository
+<http://schema.org/codeRepository> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/org#memberOf
+<http://www.w3.org/ns/org#memberOf> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#introduction
+<https://w3id.org/widoco/vocab#introduction> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#jsonldSerialization
+<https://w3id.org/widoco/vocab#jsonldSerialization> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#ntSerialization
+<https://w3id.org/widoco/vocab#ntSerialization> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#rdfxmlSerialization
+<https://w3id.org/widoco/vocab#rdfxmlSerialization> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#turtleSerialization
+<https://w3id.org/widoco/vocab#turtleSerialization> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-corrective-action
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-corrective-action> rdf:type owl:ObjectProperty ;
+                                                                                   rdfs:comment "vztah mezi něčím a korektivní akcí" ;
+                                                                                   rdfs:label "má korektivní akci"@cs .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-discrepancy
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-discrepancy> rdf:type owl:ObjectProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-inspected-condition
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-inspected-condition> rdf:type owl:ObjectProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-operator
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-operator> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:range <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/employee> .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-point
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-point> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf <http://www.opengis.net/ont/geosparql#hasGeometry> .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-priority
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-priority> rdf:type owl:ObjectProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-state
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-state> rdf:type owl:ObjectProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-trail
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/has-trail> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf <http://www.opengis.net/ont/geosparql#hasGeometry> .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by> rdf:type owl:ObjectProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by-inspection-object
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by-inspection-object> rdf:type owl:ObjectProperty ;
+                                                                                                rdfs:subPropertyOf <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by> .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by-organizational-category
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by-organizational-category> rdf:type owl:ObjectProperty ;
+                                                                                                      rdfs:subPropertyOf <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-classified-by> .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-fixed-by
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-fixed-by> rdf:type owl:ObjectProperty ;
+                                                                         rdfs:range <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/employee> .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-inspection-of
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-inspection-of> rdf:type owl:ObjectProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-part-of
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/is-part-of> rdf:type owl:ObjectProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/located-at
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/located-at> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:subPropertyOf <http://www.opengis.net/ont/geosparql#hasGeometry> ;
+                                                                        rdfs:range <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/point> .
+
+
+###  http://www.opengis.net/ont/geosparql#hasGeometry
+<http://www.opengis.net/ont/geosparql#hasGeometry> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/date
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/date> rdf:type owl:DatatypeProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/due-date
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/due-date> rdf:type owl:DatatypeProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/elevation
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/elevation> rdf:type owl:DatatypeProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/end
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/end> rdf:type owl:DatatypeProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/id
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/id> rdf:type owl:DatatypeProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/repair-date
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/repair-date> rdf:type owl:DatatypeProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/start
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/start> rdf:type owl:DatatypeProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/username
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/username> rdf:type owl:DatatypeProperty .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/value
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/value> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.opengis.net/ont/geosparql#asWKT
+<http://www.opengis.net/ont/geosparql#asWKT> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/condition
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/condition> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action-state
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action-state> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action-type
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/corrective-action-type> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/discrepancy
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/discrepancy> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/employee
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/employee> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/finding
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/finding> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspected-condition
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspected-condition> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspected-condition-state
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspected-condition-state> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspection
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspection> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Feature> .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspection-type
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/inspection-type> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/point
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/point> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Geometry> .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/priority
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/priority> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/repair
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/repair> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/section
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/section> rdf:type owl:Class .
+
+
+###  http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/trail
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/trail> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Geometry> .
+
+
+###  http://www.opengis.net/ont/geosparql#Feature
+<http://www.opengis.net/ont/geosparql#Feature> rdf:type owl:Class .
+
+
+###  http://www.opengis.net/ont/geosparql#Geometry
+<http://www.opengis.net/ont/geosparql#Geometry> rdf:type owl:Class .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<https://orcid.org/0000-0002-3844-426X> <http://www.w3.org/ns/org#memberOf> <https://ror.org/03kqpb082> ;
+                                        <http://xmlns.com/foaf/0.1/name> "Michal Med" .
+
+
+<https://orcid.org/0000-0003-2850-2582> <http://www.w3.org/ns/org#memberOf> <https://ror.org/03kqpb082> ;
+                                        <http://xmlns.com/foaf/0.1/name> "Bogdan Kostov" .
+
+
+<https://ror.org/03kqpb082> <http://xmlns.com/foaf/0.1/name> "České vysoké učení technické v Praze"@cs .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
