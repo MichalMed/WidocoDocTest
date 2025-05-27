@@ -28,6 +28,10 @@
   }, {
     "@id" : "https://orcid.org/0000-0003-2850-2582"
   } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "cs",
+    "@value" : "Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.\nInspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.\nTrail je trasa, na které daná inspekce probíhá.\nPoint je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. "
+  } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@value" : "2025-01-24"
   } ],
@@ -38,8 +42,7 @@
     "@value" : "2025-05-26"
   } ],
   "http://purl.org/dc/terms/title" : [ {
-    "@language" : "cs",
-    "@value" : "Safety performance KPIS model\";\n       dct:description \"Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.\nInspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.\nTrail je trasa, na které daná inspekce probíhá.\nPoint je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. "
+    "@value" : "Safety performance KPIS model"
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@id" : "https://dcmi.github.io/bibo/#:Specification"

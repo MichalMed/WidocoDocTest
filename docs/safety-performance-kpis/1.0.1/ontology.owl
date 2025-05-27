@@ -25,14 +25,14 @@
         <terms:created>2025-01-24</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-3844-426X"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0003-2850-2582"/>
+        <terms:description xml:lang="cs">Základními pojmy ontoloige Safety performance KPIS jsou pojmy &apos;inspection&apos;, &apos;trail&apos; a &apos;point&apos;.
+Inspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.
+Trail je trasa, na které daná inspekce probíhá.
+Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. </terms:description>
         <terms:issued>2025-01-24</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:modified>2025-05-26</terms:modified>
-        <terms:title xml:lang="cs">Safety performance KPIS model&quot;;
-       dct:description &quot;Základními pojmy ontoloige Safety performance KPIS jsou pojmy &apos;inspection&apos;, &apos;trail&apos; a &apos;point&apos;.
-Inspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.
-Trail je trasa, na které daná inspekce probíhá.
-Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. </terms:title>
+        <terms:title>Safety performance KPIS model</terms:title>
         <bibo:status rdf:resource="https://dcmi.github.io/bibo/#:Specification"/>
         <vann:preferredNamespacePrefix>safety-performance-kpis</vann:preferredNamespacePrefix>
         <vann:prefferedNamespaceUri rdf:resource="http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/"/>

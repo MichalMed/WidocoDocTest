@@ -16,14 +16,14 @@
                                                               <http://purl.org/dc/terms/created> "2025-01-24" ;
                                                               <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3844-426X> ,
                                                                                                  <https://orcid.org/0000-0003-2850-2582> ;
-                                                              <http://purl.org/dc/terms/issued> "2025-01-24" ;
-                                                              <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
-                                                              <http://purl.org/dc/terms/modified> "2025-05-26" ;
-                                                              <http://purl.org/dc/terms/title> """Safety performance KPIS model\";
-       dct:description \"Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.
+                                                              <http://purl.org/dc/terms/description> """Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.
 Inspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.
 Trail je trasa, na které daná inspekce probíhá.
 Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. """@cs ;
+                                                              <http://purl.org/dc/terms/issued> "2025-01-24" ;
+                                                              <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                              <http://purl.org/dc/terms/modified> "2025-05-26" ;
+                                                              <http://purl.org/dc/terms/title> "Safety performance KPIS model" ;
                                                               <http://purl.org/ontology/bibo/status> <https://dcmi.github.io/bibo/#:Specification> ;
                                                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "safety-performance-kpis" ;
                                                               <http://purl.org/vocab/vann/prefferedNamespaceUri> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/> ;
