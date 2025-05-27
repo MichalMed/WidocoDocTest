@@ -28,10 +28,6 @@
   }, {
     "@id" : "https://orcid.org/0000-0003-2850-2582"
   } ],
-  "http://purl.org/dc/terms/description" : [ {
-    "@language" : "cs",
-    "@value" : "Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.\nInspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.\nTrail je trasa, na které daná inspekce probíhá.\nPoint je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. "
-  } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@value" : "2025-01-24"
   } ],
@@ -42,7 +38,8 @@
     "@value" : "2025-05-26"
   } ],
   "http://purl.org/dc/terms/title" : [ {
-    "@value" : "Safety performance KPIS model"
+    "@language" : "cs",
+    "@value" : "Safety performance KPIS model\";\n       dct:description \"Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.\nInspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.\nTrail je trasa, na které daná inspekce probíhá.\nPoint je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. "
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@id" : "https://dcmi.github.io/bibo/#:Specification"
@@ -57,8 +54,11 @@
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://github.com/kbss-cvut/lkpr-public.git"
   } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance.svg"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "kpis"
+    "@value" : "safety-performance-kpis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@id" : "https://kbss.felk.cvut.cz/web/"
@@ -280,6 +280,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://schema.org/codeRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/image",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.opengis.net/ont/geosparql#Feature",

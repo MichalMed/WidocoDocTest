@@ -25,19 +25,20 @@
         <terms:created>2025-01-24</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-3844-426X"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0003-2850-2582"/>
-        <terms:description xml:lang="cs">Základními pojmy ontoloige Safety performance KPIS jsou pojmy &apos;inspection&apos;, &apos;trail&apos; a &apos;point&apos;.
-Inspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.
-Trail je trasa, na které daná inspekce probíhá.
-Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. </terms:description>
         <terms:issued>2025-01-24</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:modified>2025-05-26</terms:modified>
-        <terms:title>Safety performance KPIS model</terms:title>
+        <terms:title xml:lang="cs">Safety performance KPIS model&quot;;
+       dct:description &quot;Základními pojmy ontoloige Safety performance KPIS jsou pojmy &apos;inspection&apos;, &apos;trail&apos; a &apos;point&apos;.
+Inspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.
+Trail je trasa, na které daná inspekce probíhá.
+Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. </terms:title>
         <bibo:status rdf:resource="https://dcmi.github.io/bibo/#:Specification"/>
         <vann:preferredNamespacePrefix>safety-performance-kpis</vann:preferredNamespacePrefix>
         <vann:prefferedNamespaceUri rdf:resource="http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/"/>
         <schema:codeRepository rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/kbss-cvut/lkpr-public.git</schema:codeRepository>
-        <rdfs:label>kpis</rdfs:label>
+        <schema:image rdf:resource="https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance.svg"/>
+        <rdfs:label>safety-performance-kpis</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://kbss.felk.cvut.cz/web/"/>
         <owl:priorVersion rdf:resource="http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0"/>
         <owl:versionInfo>1.0.1</owl:versionInfo>
@@ -105,6 +106,13 @@ Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspek
 
 
     <owl:AnnotationProperty rdf:about="http://schema.org/codeRepository"/>
+    
+
+
+    <!-- http://schema.org/image -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/image"/>
     
 
 

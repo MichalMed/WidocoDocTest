@@ -10,16 +10,16 @@ _:genid1 <http://www.w3.org/ns/org#memberOf> <https://ror.org/03kqpb082> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/created> "2025-01-24" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3844-426X> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0003-2850-2582> .
-<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/description> "Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.\nInspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.\nTrail je trasa, na které daná inspekce probíhá.\nPoint je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. "@cs .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/issued> "2025-01-24" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/modified> "2025-05-26" .
-<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/title> "Safety performance KPIS model" .
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/title> "Safety performance KPIS model\";\n       dct:description \"Základními pojmy ontoloige Safety performance KPIS jsou pojmy 'inspection', 'trail' a 'point'.\nInspection je záznamem kontroly, která probíháý v daném čase na dané trase, kterou inspektor projíždí nebo prochází a zaznamenává situace, které mohou ohrozit bezpečnost leteckého provozu.\nTrail je trasa, na které daná inspekce probíhá.\nPoint je bodem, který je zaznamenán pomocí přístroje GPS, který má inspektor u sebe. "@cs .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/ontology/bibo/status> <https://dcmi.github.io/bibo/#:Specification> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/vocab/vann/preferredNamespacePrefix> "safety-performance-kpis" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/vocab/vann/prefferedNamespaceUri> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/codeRepository> "https://github.com/kbss-cvut/lkpr-public.git"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2000/01/rdf-schema#label> "kpis" .
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/image> <https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance.svg> .
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2000/01/rdf-schema#label> "safety-performance-kpis" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://kbss.felk.cvut.cz/web/> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2002/07/owl#priorVersion> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1" .
@@ -54,6 +54,9 @@ _:genid1 <http://www.w3.org/ns/org#memberOf> <https://ror.org/03kqpb082> .
 # 
 # http://schema.org/codeRepository
 <http://schema.org/codeRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/image
+<http://schema.org/image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/ns/org#memberOf
 <http://www.w3.org/ns/org#memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
