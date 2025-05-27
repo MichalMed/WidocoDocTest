@@ -6,7 +6,6 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -33,11 +32,11 @@ Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspek
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:modified>2025-05-26</terms:modified>
         <terms:title>Safety performance KPIS model</terms:title>
-        <bibo:status rdf:resource="https://dcmi.github.io/bibo/#:Specification"/>
         <vann:preferredNamespacePrefix>safety-performance-kpis</vann:preferredNamespacePrefix>
         <vann:prefferedNamespaceUri rdf:resource="http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/"/>
         <schema:codeRepository rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/kbss-cvut/lkpr-public.git</schema:codeRepository>
-        <schema:image rdf:resource="https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance.svg"/>
+        <schema:creativeWorkStatus xml:lang="cs">Specifikace</schema:creativeWorkStatus>
+        <schema:image rdf:resource="https://raw.githubusercontent.com/kbss-cvut/lkpr-model/refs/heads/main/safety-performance.svg?token=GHSAT0AAAAAACWS33Z4RS4EAKZ2R5UGVNFM2BVNX6Q"/>
         <rdfs:label>safety-performance-kpis</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://kbss.felk.cvut.cz/web/"/>
         <owl:priorVersion rdf:resource="http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0"/>
@@ -88,13 +87,6 @@ Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspek
     
 
 
-    <!-- http://purl.org/ontology/bibo/status -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
-    
-
-
     <!-- http://purl.org/vocab/vann/prefferedNamespaceUri -->
 
 
@@ -106,6 +98,13 @@ Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspek
 
 
     <owl:AnnotationProperty rdf:about="http://schema.org/codeRepository"/>
+    
+
+
+    <!-- http://schema.org/creativeWorkStatus -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/creativeWorkStatus"/>
     
 
 

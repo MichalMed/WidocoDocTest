@@ -44,9 +44,6 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Safety performance KPIS model"
   } ],
-  "http://purl.org/ontology/bibo/status" : [ {
-    "@id" : "https://dcmi.github.io/bibo/#:Specification"
-  } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "safety-performance-kpis"
   } ],
@@ -57,8 +54,12 @@
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://github.com/kbss-cvut/lkpr-public.git"
   } ],
+  "http://schema.org/creativeWorkStatus" : [ {
+    "@language" : "cs",
+    "@value" : "Specifikace"
+  } ],
   "http://schema.org/image" : [ {
-    "@id" : "https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance.svg"
+    "@id" : "https://raw.githubusercontent.com/kbss-cvut/lkpr-model/refs/heads/main/safety-performance.svg?token=GHSAT0AAAAAACWS33Z4RS4EAKZ2R5UGVNFM2BVNX6Q"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "safety-performance-kpis"
@@ -276,13 +277,13 @@
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://purl.org/ontology/bibo/status",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://purl.org/vocab/vann/prefferedNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://schema.org/codeRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/creativeWorkStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://schema.org/image",

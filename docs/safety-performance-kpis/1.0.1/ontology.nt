@@ -15,11 +15,11 @@ _:genid1 <http://www.w3.org/ns/org#memberOf> <https://ror.org/03kqpb082> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/modified> "2025-05-26" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/dc/terms/title> "Safety performance KPIS model" .
-<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/ontology/bibo/status> <https://dcmi.github.io/bibo/#:Specification> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/vocab/vann/preferredNamespacePrefix> "safety-performance-kpis" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/vocab/vann/prefferedNamespaceUri> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/codeRepository> "https://github.com/kbss-cvut/lkpr-public.git"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/image> <https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance.svg> .
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/creativeWorkStatus> "Specifikace"@cs .
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/image> <https://raw.githubusercontent.com/kbss-cvut/lkpr-model/refs/heads/main/safety-performance.svg?token=GHSAT0AAAAAACWS33Z4RS4EAKZ2R5UGVNFM2BVNX6Q> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2000/01/rdf-schema#label> "safety-performance-kpis" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://kbss.felk.cvut.cz/web/> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2002/07/owl#priorVersion> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0> .
@@ -47,14 +47,14 @@ _:genid1 <http://www.w3.org/ns/org#memberOf> <https://ror.org/03kqpb082> .
 # http://purl.org/dc/terms/issued
 <http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/ontology/bibo/status
-<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # http://purl.org/vocab/vann/prefferedNamespaceUri
 <http://purl.org/vocab/vann/prefferedNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://schema.org/codeRepository
 <http://schema.org/codeRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/creativeWorkStatus
+<http://schema.org/creativeWorkStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://schema.org/image
 <http://schema.org/image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
