@@ -59,7 +59,7 @@
     "@value" : "Specifikace"
   } ],
   "http://schema.org/image" : [ {
-    "@id" : "https://raw.githubusercontent.com/kbss-cvut/lkpr-model/refs/heads/main/safety-performance.svg?token=GHSAT0AAAAAACWS33Z4RS4EAKZ2R5UGVNFM2BVNX6Q"
+    "@value" : "safety-performance.svg"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "safety-performance-kpis"

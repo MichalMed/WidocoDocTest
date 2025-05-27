@@ -19,7 +19,7 @@ _:genid1 <http://www.w3.org/ns/org#memberOf> <https://ror.org/03kqpb082> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://purl.org/vocab/vann/prefferedNamespaceUri> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/codeRepository> "https://github.com/kbss-cvut/lkpr-public.git"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/creativeWorkStatus> "Specifikace"@cs .
-<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/image> <https://raw.githubusercontent.com/kbss-cvut/lkpr-model/refs/heads/main/safety-performance.svg?token=GHSAT0AAAAAACWS33Z4RS4EAKZ2R5UGVNFM2BVNX6Q> .
+<http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://schema.org/image> "safety-performance.svg" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2000/01/rdf-schema#label> "safety-performance-kpis" .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://kbss.felk.cvut.cz/web/> .
 <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis> <http://www.w3.org/2002/07/owl#priorVersion> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0> .

@@ -28,7 +28,7 @@ Point je bodem, který je zaznamenán pomocí přístroje GPS, který má inspek
                                                               <http://purl.org/vocab/vann/prefferedNamespaceUri> <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/> ;
                                                               <http://schema.org/codeRepository> "https://github.com/kbss-cvut/lkpr-public.git"^^xsd:anyURI ;
                                                               <http://schema.org/creativeWorkStatus> "Specifikace"@cs ;
-                                                              <http://schema.org/image> <https://raw.githubusercontent.com/kbss-cvut/lkpr-model/refs/heads/main/safety-performance.svg?token=GHSAT0AAAAAACWS33Z4RS4EAKZ2R5UGVNFM2BVNX6Q> ;
+                                                              <http://schema.org/image> "safety-performance.svg" ;
                                                               rdfs:label "safety-performance-kpis" ;
                                                               rdfs:seeAlso <https://kbss.felk.cvut.cz/web/> ;
                                                               owl:priorVersion <http://onto.fel.cvut.cz/ontologies/safety-performance-kpis/verze/1.0.0> ;
